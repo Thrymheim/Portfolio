@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maziyar Kolagar | AI Engineer</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1985/1985582.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-en="Home" data-fa="خانه">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-fa="درباره من">About</a></li>
+                <li><a href="#skills" class="nav-link" data-en="Skills" data-fa="مهارت‌ ها">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-en="Projects" data-fa="پروژه‌ها">Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-fa="ارتباط با من">Contact</a></li>
+                <li>
+                    <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+                        <span class="lang-text" data-en="FA" data-fa="EN">FA</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <p class="hero-greeting" data-en="Hello, I'm" data-fa="سلام، به وبسایت من خوش آمدید">Hello, I'm</p>
+            <h1 class="hero-name" data-en="Maziyar Kolagar" data-fa="مازیار کلاگر">Maziyar Kolagar</h1>
+            <div class="hero-title">
+                <span class="typed-text" id="typedText"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description" data-en="I build web applications and AI-powered solutions. Turning ideas into fast, intelligent, and impactful digital experiences." data-fa=" من در زمینه توسعه وب و هوش مصنوعی فعالیت می‌کنم.
+
+با بهره‌گیری از فناوری‌های مدرن روز، ایده‌ ها را به پروژه های هوشمند و کارآمد تبدیل می‌کنم.">I build web applications and AI-powered solutions. Turning ideas into fast, intelligent, and impactful digital experiences.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary" data-en="View My Work" data-fa="نمونه کارهای من">View My Work</a>
+                <a href="#contact" class="btn btn-secondary" data-en="Get In Touch" data-fa="تماس با من">Get In Touch</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/Thrymheim" class="social-link" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/thrymheim/" class="social-link" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p data-en="Scroll Down" data-fa="اسکرول کنید">Scroll Down</p>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-animate data-en="About Me" data-fa="درباره من">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image" data-animate>
+                    <div class="image-wrapper">
+                        <img src="https://i.postimg.cc/SKgyRvPT/photo-2025-03-05-12-44-34.jpg" alt="Maziyar Kolagar" class="about-avatar">
+                        <div class="image-decoration"></div>
+                        <a href="#" class="btn btn-primary btn-resume" data-en="Download CV" data-fa="دانلود رزومه">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-text" data-animate>
+                    <p class="about-intro" data-en="I am an AI Engineer and Web Developer with a passion for building modern, fast, and user-centered digital products. My focus is on designing and developing websites and web applications that deliver both functionality and great user experiences." data-fa="من یک مهندس هوش مصنوعی و توسعه‌دهنده وب هستم. تمرکز من بر طراحی و توسعه وب‌سایت‌ها و اپلیکیشن‌های مدرن، سریع و کاربرمحور است.">I am an AI Engineer and Web Developer with a passion for building modern, fast, and user-centered digital products. My focus is on designing and developing websites and web applications that deliver both functionality and great user experiences.</p>
+                    <p data-en="I always strive to go beyond technical implementation by creating solutions that effectively address real-world challenges. I am particularly interested in Artificial Intelligence and enjoy leveraging it to build intelligent systems and enhance user experiences." data-fa="همواره تلاش می‌کنم علاوه بر پیاده‌سازی فنی، راهکارهایی ارائه دهم که بتوانند مشکلات واقعی را به شکلی مؤثر حل کنند. به حوزه هوش مصنوعی نیز علاقه‌مندم و از آن برای ساخت سیستم‌های هوشمند و بهبود تجربه کاربران استفاده می‌کنم.">I always strive to go beyond technical implementation by creating solutions that effectively address real-world challenges. I am particularly interested in Artificial Intelligence and enjoy leveraging it to build intelligent systems and enhance user experiences.</p>
+                    <p data-en="Continuous learning, exploring new technologies, and improving my skills are essential parts of my professional journey. I enjoy working on challenging projects and believe that the best products are created through a combination of creativity, engineering, and attention to detail." data-fa="یادگیری مداوم، بررسی فناوری‌های جدید و توسعه مهارت‌ها بخش مهمی از مسیر حرفه‌ای من هستند. از کار روی پروژه‌های چالش‌برانگیز لذت می‌برم و معتقدم بهترین محصولات از ترکیب خلاقیت، مهندسی و توجه به جزئیات شکل می‌گیرند.">Continuous learning, exploring new technologies, and improving my skills are essential parts of my professional journey. I enjoy working on challenging projects and believe that the best products are created through a combination of creativity, engineering, and attention to detail.</p>
+                    <p data-en="My goal is to build products that are not only technically robust but also enjoyable and valuable for their users." data-fa="هدف من ساخت محصولاتی است که هم از نظر فنی قدرتمند باشند و هم برای کاربران خوشایند باشند.">My goal is to build products that are not only technically robust but also enjoyable and valuable for their users.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="3">0</span>+
+                            <span class="stat-label" data-en="Years Experience" data-fa="سال تجربه">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="10">0</span>+
+                            <span class="stat-label" data-en="Projects Completed" data-fa="پروژه تکمیل شده">Projects Completed</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-animate data-en="My Skills" data-fa="مهارت‌های من">My <span class="highlight">Skills</span></h2>
+            <p class="section-subtitle" data-animate data-en="Technologies and tools I work with" data-fa="فناوری‌ها و ابزارهایی که با آن‌ها کار می‌کنم">Technologies and tools I work with</p>
+            <div class="skills-grid">
+                <div class="skill-category" data-animate>
+                    <h3 data-en="Artificial Intelligence" data-fa="هوش مصنوعی">Artificial Intelligence</h3>
+                    <div class="skill-subcategory">
+                        <h4 data-en="Frameworks & Libraries" data-fa="فریمورک‌ها و کتابخانه‌ها">Frameworks & Libraries</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">Hugging Face</span>
+                        </div>
+                    </div>
+                    <div class="skill-subcategory">
+                        <h4 data-en="LLM & Generative AI" data-fa="مدل‌های زبانی و هوش مصنوعی تولیدی">LLM & Generative AI</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Fine-Tuning</span>
+                            <span class="skill-tag">Prompt Engineering</span>
+                            <span class="skill-tag">RAG</span>
+                            <span class="skill-tag">AI Agent Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category" data-animate>
+                    <h3 data-en="Web Development" data-fa="توسعه وب">Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate>
+                    <h3 data-en="Tools & Technologies" data-fa="ابزارها و فناوری‌ها">Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">SQLite</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title" data-animate data-en="Featured Projects" data-fa="پروژه‌های برگزیده">Featured <span class="highlight">Projects</span></h2>
+            <p class="section-subtitle" data-animate data-en="Some of my recent work" data-fa="برخی از کارهای اخیر من">Some of my recent work</p>
+            <div class="projects-grid">
+                <article class="project-card" data-animate>
+                    <div class="project-image">
+                        <img src="https://i.postimg.cc/KjY4j1t1/Screenshot-(7760).png" alt="E-Commerce Platform" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://maziyar.pythonanywhere.com/" class="project-link" aria-label="Live Demo">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/><path fill="currentColor" d="M5 5a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2v-7h-2v7H5V7h7V5H5z"/></svg>
+                                </a>
+                                <a href="https://github.com/Thrymheim/Maziyar-shop" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-en="E-Commerce Website" data-fa="فروشگاه آنلاین">E-Commerce Platform</h3>
+                        <p data-en="Full-stack e-commerce Website with Django, JS, and SQLite. Features include user auth, cart, Admin pannel,comment section and ratings." data-fa="فروشگاه آنلاین فول ‌استک با Django،  JSو SQLite. ویژگی‌ها شامل احراز هویت کاربر، سبد خرید، پنل ادمین،  قابلیت نظر دهی و امتیاز دادن به محصولات.
+
+">Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user auth, cart, and payment integration.</p>
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>SQLite</span>
+                            <span>HTML/CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate>
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <span class="project-icon">T</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Live Demo">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/><path fill="currentColor" d="M5 5a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2v-7h-2v7H5V7h7V5H5z"/></svg>
+                                </a>
+                                <a href="#" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-en="Task Management App" data-fa="اپلیکیشن مدیریت وظایف">Task Management App</h3>
+                        <p data-en="Collaborative project management tool with real-time updates, drag-and-drop functionality, and team workspaces." data-fa="ابزار مدیریت پروژه مشارکتی با به‌روزرسانی‌های بلادرنگ، قابلیت کشیدن و رها کردن و فضاهای کاری تیمی.">Collaborative project management tool with real-time updates, drag-and-drop functionality, and team workspaces.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate>
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <span class="project-icon">W</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Live Demo">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/><path fill="currentColor" d="M5 5a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2v-7h-2v7H5V7h7V5H5z"/></svg>
+                                </a>
+                                <a href="#" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-en="Weather Dashboard" data-fa="داشبورد آب‌وهوا">Weather Dashboard</h3>
+                        <p data-en="Beautiful weather app with 7-day forecasts, interactive maps, and location-based weather alerts." data-fa="اپلیکیشن آب‌وهوای زیبا با پیش‌بینی ۷ روزه، نقشه‌های تعاملی و هشدارهای آب‌وهوایی مبتنی بر مکان.">Beautiful weather app with 7-day forecasts, interactive maps, and location-based weather alerts.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>OpenWeather API</span>
+                            <span>Chart.js</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate>
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <span class="project-icon">P</span>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Live Demo">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/><path fill="currentColor" d="M5 5a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2v-7h-2v7H5V7h7V5H5z"/></svg>
+                                </a>
+                                <a href="#" class="project-link" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-en="Portfolio Generator" data-fa="سازنده پورتفولیو">Portfolio Generator</h3>
+                        <p data-en="Dynamic portfolio builder that creates stunning websites from JSON data with customizable themes." data-fa="سازنده پورتفولیوی پویا که وب‌سایت‌های خیره‌کننده‌ای از داده‌های JSON با تم‌های قابل سفارش‌سازی ایجاد می‌کند.">Dynamic portfolio builder that creates stunning websites from JSON data with customizable themes.</p>
+                        <div class="project-tags">
+                            <span>TypeScript</span>
+                            <span>Next.js</span>
+                            <span>Prisma</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-animate data-en="Get In Touch" data-fa="تماس با من">Get In <span class="highlight">Touch</span></h2>
+            <p class="section-subtitle" data-animate data-en="Have a project in mind? Let's work together!" data-fa="پروژه‌ای در ذهن دارید؟ بیایید با هم کار کنیم!">Have a project in mind? Let's work together!</p>
+            <div class="contact-content">
+                <div class="contact-info" data-animate>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        </div>
+                        <div>
+                            <h4 data-en="Email" data-fa="ایمیل">Email</h4>
+                            <p>maziyarkolagar@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        </div>
+                        <div>
+                            <h4 data-en="Location" data-fa="مکان">Location</h4>
+                            <p data-en="Iran, Mazandaran" data-fa="ایران، مازندران">Iran</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                        </div>
+                        <div>
+                            <h4 data-en="Phone" data-fa="تلفن">Phone</h4>
+                            <p>+98 911 225 9450</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mnjyenqp" method="POST" data-animate>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name" data-en="Your Name" data-fa="نام شما">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email" data-en="Your Email" data-fa="ایمیل شما">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject" data-en="Subject" data-fa="موضوع">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message" data-en="Your Message" data-fa="پیام شما">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span data-en="Send Message" data-fa="ارسال پیام">Send Message</span>
+                        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-en="&copy; 2024 Maziyar. All rights reserved." data-fa="&copy; 2026 مازیار کلاگر. تمامی حقوق محفوظ است.">&copy; 2026 Maziyar Kolagar. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Thrymheim" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/thrymheim/" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
